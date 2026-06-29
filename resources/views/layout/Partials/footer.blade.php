@@ -15,7 +15,7 @@
 
                      <!-- Footer Contact Circle Start -->
                      <div class="footer-contact-circle">
-                         <img src="images/contact-now-circle.svg" alt="">
+                         <img src="{{ asset('assets/images/contact-now-circle.svg') }}" alt="">
                      </div>
                      <!-- Footer Contact Circle End -->
                  </div>
@@ -27,7 +27,7 @@
                  <div class="about-footer">
                      <!-- Footer Logo Start -->
                      <div class="footer-logo">
-                         <img src="images/footer-logo.svg" alt="">
+                         <img src="{{ asset('assets/images/logo1.png') }}" alt="">
                      </div>
                      <!-- Footer Logo End -->
 
@@ -40,10 +40,9 @@
                      <!-- Footer Social Link Start -->
                      <div class="footer-social-links">
                          <ul>
-                             <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                             <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                             <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                             <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                             <li><a href="https://www.facebook.com/share/17tMRVS3TZ/" title="facebook" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                             <li><a href="https://www.instagram.com/hanuda_supply?igsh=MTc4ZDh0YzV6ZjdocA==" title="instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                             <li><a href="https://www.linkedin.com/company/hanuda-supply/" title="linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
                          </ul>
                      </div>
                      <!-- Footer Social Link End -->
@@ -56,10 +55,11 @@
                  <div class="footer-links">
                      <h3>quick links</h3>
                      <ul>
-                         <li><a href="index-2.html">home</a></li>
-                         <li><a href="about.html">about us</a></li>
-                         <li><a href="services.html">services</a></li>
-                         <li><a href="blog.html">blog</a></li>
+                         <li><a href="{{ url('/') }}">home</a></li>
+                         <li><a href="{{ url('/about') }}">about us</a></li>
+                         <li><a href="{{ url('/contact') }}">Contact</a></li>
+                         <li><a href="{{ url('/terms-conditions') }}">Terms & Conditions</a></li>
+                         <li><a href="{{ url('/help') }}">Help</a></li>
                      </ul>
                  </div>
                  <!-- Footer Links End -->
@@ -68,12 +68,14 @@
              <div class="col-lg-2 col-md-4 col-6">
                  <!-- Footer Links Start -->
                  <div class="footer-links">
-                     <h3>Security</h3>
+                     <h3>Products</h3>
                      <ul>
-                         <li><a href="#">term & condition</a></li>
-                         <li><a href="#">privacy policy</a></li>
-                         <li><a href="#">help</a></li>
-                         <li><a href="contact.html">contact us</a></li>
+                         <li><a href="#">Bearings</a></li>
+                         <li><a href="#">Electrical Motors</a></li>
+                         <li><a href="#">Belting / Belts</a></li>
+                         <li><a href="contact.html">Roller Chains</a></li>
+                         <li><a href="#">Gear Boxes</a></li>
+                         <li><a href="#">Casters</a></li>
                      </ul>
                  </div>
                  <!-- Footer Links End -->
@@ -84,9 +86,11 @@
                  <div class="footer-links">
                      <h3>Contact</h3>
                      <ul>
-                         <li>+91 123654789</li>
-                         <li>info@domainname.com</li>
-                         <li>520, West Valley, Amin and minim</li>
+                         <li>🇨🇦 (+1) 905-915-0210</li>
+                         <li>🇺🇸 (+1) 630-339-2658</li>
+                         <li>info@hanuda.ca</li>
+                         <li>17 McEwan Dr West, Bolton
+                             Ontario, Canada L7E1H5</li>
                      </ul>
                  </div>
                  <!-- Footer Links End -->
@@ -99,7 +103,12 @@
                  <div class="col-lg-12">
                      <!-- Footer Copyright Start -->
                      <div class="footer-copyright-text">
-                         <p>Copyright © 2024 All Rights Reserved.</p>
+                         <p>
+                             Crafted with Code & Creativity by{{ " " }}
+                             <a href="https://theaditech.com" target="_blank" rel="noopener noreferrer" style="color: #ffffff;">
+                                 The AdiTech
+                             </a>
+                         </p>
                      </div>
                      <!-- Footer Copyright End -->
                  </div>
