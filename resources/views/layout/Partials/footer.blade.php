@@ -15,7 +15,9 @@
 
                      <!-- Footer Contact Circle Start -->
                      <div class="footer-contact-circle">
+                        <a href="{{url('/contact')}}">
                          <img src="{{ asset('assets/images/contact-now-circle.svg') }}" alt="">
+                        </a>
                      </div>
                      <!-- Footer Contact Circle End -->
                  </div>
@@ -81,20 +83,50 @@
                  <!-- Footer Links End -->
              </div>
 
-             <div class="col-lg-2 col-md-4 col-12">
-                 <!-- Footer Links Start -->
-                 <div class="footer-links">
-                     <h3>Contact</h3>
-                     <ul>
-                         <li>🇨🇦 (+1) 905-915-0210</li>
-                         <li>🇺🇸 (+1) 630-339-2658</li>
-                         <li>Info@hanudaglobal.com</li>
-                         <li>17 McEwan Dr West, Bolton
-                             Ontario, Canada L7E1H5</li>
-                     </ul>
-                 </div>
-                 <!-- Footer Links End -->
-             </div>
+            <div class="col-lg-2 col-md-4 col-12">
+    <!-- Footer Links Start -->
+    <div class="footer-links">
+        <h3>Contact</h3>
+
+        <ul>
+
+            <!-- Canada Number -->
+            <li>
+                <a href="tel:+19059150210" class="footer-contact-item">
+                    <img src="{{ asset('assets/images/Canada.png') }}" alt="Canada">
+                    <span>(+1) 905-915-0210</span>
+                </a>
+            </li>
+
+
+            <!-- USA Number -->
+            <li>
+                <a href="tel:+16303392658" class="footer-contact-item">
+                    <img src="{{ asset('assets/images/US.png') }}" alt="USA">
+                    <span>(+1) 630-339-2658</span>
+                </a>
+            </li>
+
+
+            <!-- Email -->
+            <li>
+                <a href="mailto:info@hanudaglobal.com">
+                    info@hanudaglobal.com
+                </a>
+            </li>
+
+
+            <!-- Address -->
+            <li>
+                17 McEwan Dr West, Bolton
+                Ontario, Canada L7E1H5
+            </li>
+
+        </ul>
+
+    </div>
+    <!-- Footer Links End -->
+</div>
          </div>
 
          <!-- Footer Copyright Section Start -->
@@ -117,4 +149,29 @@
          <!-- Footer Copyright Section End -->
      </div>
  </footer>
+
+ <style>
+    .footer-contact-item{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    text-decoration:none;
+    color:inherit;
+}
+
+
+.footer-contact-item img{
+
+    width:24px;
+    height:16px;
+    object-fit:cover;
+    border-radius:2px;
+
+}
+
+
+.footer-contact-item span{
+    line-height:1.5;
+}
+</style>
  <!-- Footer End -->

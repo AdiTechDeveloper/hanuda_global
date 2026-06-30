@@ -1,4 +1,5 @@
 @extends('layout.default')
+@section('title', 'Contact')
 @section('content')
 <!-- Page Header Start -->
 <div class="page-header parallaxie">
@@ -46,7 +47,7 @@
                             </div>
                             <div class="contact-info-content">
                                 <h3>contact</h3>
-                                <p>(+1) 905-915-0210</p>
+                                <p>+1 (630) 339-2658</p>
                             </div>
                         </div>
                         <!-- Page Contact Item End -->
@@ -58,7 +59,7 @@
                             </div>
                             <div class="contact-info-content">
                                 <h3>Email</h3>
-                                <p>info@hanuda.ca</p>
+                                <p>Info@hanudaglobal.com</p>
                             </div>
                         </div>
                         <!-- Page Contact Item End -->
