@@ -6,6 +6,6 @@
 <meta name="keywords" content="">
 <meta name="author" content="Awaiken">
 <!-- Page Title -->
-<title>Hanuda Global</title>
+{{-- <title>Hanuda Global</title> --}}
 <!-- Favicon Icon -->
-<link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/logo.png') }}">
+<link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">

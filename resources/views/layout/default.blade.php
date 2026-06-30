@@ -6,6 +6,8 @@
     @include('layout.Partials.head')
     @include('layout.Partials.css')
 
+    <title>@yield('title') | Hanuda Global</title>
+
     @stack('styles')
 
 </head>
@@ -15,16 +17,16 @@
     <!-- Header/Navbar -->
     @include('layout.Partials.header')
 
-     <!-- Preloader Start -->
-    {{-- <div class="preloader">
-		<div class="loading-container">
-			<div class="loading"></div>
-			<div id="loading-icon"><img src="images/loader.svg" alt=""></div>
-		</div>
-	</div> --}}
+    <!-- Preloader Start -->
+    <div class="preloader">
+        <div class="loading-container">
+            <div class="loading"></div>
+            <div id="loading-icon"><img src="{{ asset('assets/images/loader.svg') }}" alt=""></div>
+        </div>
+    </div>
     <!-- Preloader End -->
 
-    
+
     <!-- Page Content -->
     @yield('content')
 

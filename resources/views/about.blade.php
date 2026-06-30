@@ -1,4 +1,5 @@
 @extends('layout.default')
+@section('title', 'About Us')
 @section('content')
 <!-- Page Header Start -->
 <div class="page-header parallaxie">
@@ -175,13 +176,13 @@
                     <div class="mission-vision-nav">
                         <ul class="nav nav-tabs" id="mvTab" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="remodeling-tab" data-bs-toggle="tab" data-bs-target="#mission" type="button" role="tab" aria-selected="true"><img src="images/icon-mission-nav.svg" alt=""> our mission</button>
+                                <button class="nav-link active" id="remodeling-tab" data-bs-toggle="tab" data-bs-target="#mission" type="button" role="tab" aria-selected="true"><img src="{{ asset('assets/images/icon-mission-nav.svg') }}" alt=""> our mission</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="installation-tab" data-bs-toggle="tab" data-bs-target="#vision" type="button" role="tab" aria-selected="false"><img src="images/icon-vision-nav.svg" alt=""> our vision</button>
+                                <button class="nav-link" id="installation-tab" data-bs-toggle="tab" data-bs-target="#vision" type="button" role="tab" aria-selected="false"><img src="{{ asset('assets/images/icon-vision-nav.svg') }}" alt=""> our vision</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="value-tab" data-bs-toggle="tab" data-bs-target="#value" type="button" role="tab" aria-selected="false"><img src="images/icon-value-nav.svg" alt=""> our value</button>
+                                <button class="nav-link" id="value-tab" data-bs-toggle="tab" data-bs-target="#value" type="button" role="tab" aria-selected="false"><img src="{{ asset('assets/images/icon-value-nav.svg') }}" alt=""> our value</button>
                             </li>
                         </ul>
                     </div>

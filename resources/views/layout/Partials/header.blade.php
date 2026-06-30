@@ -49,8 +49,8 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <!-- Logo Start -->
-                    <a class="navbar-brand" href="index.html">
-                        <img src="{{ asset('assets/images/logo.png') }}" alt="Logo">
+                    <a class="navbar-brand" href="{{ url('/') }}">
+                        <img src="{{ asset('assets/images/logo1.png') }}" alt="Logo">
                     </a>
                     <!-- Logo End -->
 
