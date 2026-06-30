@@ -8,4 +8,4 @@
 <!-- Page Title -->
 {{-- <title>Hanuda Global</title> --}}
 <!-- Favicon Icon -->
-<link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">
+<link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/hg.png') }}">

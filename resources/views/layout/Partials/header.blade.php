@@ -6,13 +6,13 @@
 
                     <!-- Logo -->
                     <div class="col-lg-3 col-md-4 col-12">
-                        <div class="site-logo text-center text-md-start">
+                        <div class="text-center text-md-start">
                             <a href="{{ url('/') }}">
-                                <img src="{{ asset('assets/images/logo1.png') }}" alt="Hanuda Supply Logo">
+                                <img src="{{ asset('assets/images/new3.png') }}" alt="Hanuda Supply Logo">
                             </a>
                         </div>
                     </div>
-
+                        {{-- site-logo --}}
 
                     <!-- Contact Information -->
                     <div class="col-lg-9 col-md-8 col-12">
@@ -28,7 +28,7 @@
                                         </div>
                                         <div>
                                             <span>USA</span>
-                                            <p>+1 (630) 339-2658</p>
+                                            <p>(+1) 630-339-2658</p>
                                         </div>
                                     </a>
                                 </li>
@@ -42,7 +42,7 @@
                                         </div>
                                         <div>
                                             <span>Canada</span>
-                                            <p>+1 (647) 269-2148</p>
+                                            <p>(+1) 905-915-0210</p>
                                         </div>
                                     </a>
                                 </li>

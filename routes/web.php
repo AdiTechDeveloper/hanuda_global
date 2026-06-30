@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
     return view('index');
@@ -13,6 +14,10 @@ Route::get('/about', function () {
 Route::get('/products', function () {
     return view('products');
 });
+
+Route::post('/contact-submit',
+[ContactController::class,'submit'])
+->name('contact.submit');
 
 Route::get('/products/{slug}', function ($slug) {
 

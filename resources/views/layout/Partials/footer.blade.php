@@ -29,7 +29,7 @@
                  <div class="about-footer">
                      <!-- Footer Logo Start -->
                      <div class="footer-logo">
-                         <img src="{{ asset('assets/images/logo1.png') }}" alt="">
+                         <img src="{{ asset('assets/images/new3.png') }}" alt="">
                      </div>
                      <!-- Footer Logo End -->
 
@@ -94,7 +94,7 @@
             <li>
                 <a href="tel:+19059150210" class="footer-contact-item">
                     <img src="{{ asset('assets/images/Canada.png') }}" alt="Canada">
-                    <span>(+1) 905-915-0210</span>
+                    <span> (+1) 905-915-0210</span>
                 </a>
             </li>
 

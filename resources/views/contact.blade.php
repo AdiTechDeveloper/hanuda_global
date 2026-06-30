@@ -48,6 +48,7 @@
                             <div class="contact-info-content">
                                 <h3>contact</h3>
                                 <p>+1 (630) 339-2658</p>
+                                 <p>(+1) 905-915-0210</p>
                             </div>
                         </div>
                         <!-- Page Contact Item End -->
@@ -90,15 +91,16 @@
 
                     <div class="contact-form">
                         <!-- Contact Form Start -->
-                        <form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.5s">
+                        <form id="contactForm" action="{{ route('contact.submit') }}" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.5s">
+                             @csrf
                             <div class="row">
                                 <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="fname" class="form-control" id="fname" placeholder="Enter first name" required>
+                                    <input type="text" name="first_name" class="form-control" id="fname" placeholder="Enter first name" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
 
                                 <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="lname" class="form-control" id="lname" placeholder="Enter last name" required>
+                                    <input type="text" name="last_name" class="form-control" id="lname" placeholder="Enter last name" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
 
@@ -131,6 +133,14 @@
         </div>
     </div>
 </div>
+
+@if(session('success'))
+
+<div class="alert alert-success">
+    {{ session('success') }}
+</div>
+
+@endif
 <!--  Page Contact Us End -->
 
 <!-- Google Map Start -->

@@ -266,44 +266,102 @@
 	});
 
 	/* Contact form validation */
-	var $contactform = $("#contactForm");
-	$contactform.validator({focus: false}).on("submit", function (event) {
-		if (!event.isDefaultPrevented()) {
-			event.preventDefault();
-			submitForm();
-		}
-	});
 
-	function submitForm(){
-		/* Ajax call to submit form */
-		$.ajax({
-			type: "POST",
-			url: "form-process.php",
-			data: $contactform.serialize(),
-			success : function(text){
-				if (text == "success"){
-					formSuccess();
-				} else {
-					submitMSG(false,text);
-				}
-			}
-		});
-	}
+var $contactform = $("#contactForm");
 
-	function formSuccess(){
-		$contactform[0].reset();
-		submitMSG(true, "Message Sent Successfully!")
-	}
+$contactform.validator({focus: false}).on("submit", function (event) {
 
-	function submitMSG(valid, msg){
-		if(valid){
-			var msgClasses = "h4 text-success";
-		} else {
-			var msgClasses = "h4 text-danger";
-		}
-		$("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
-	}
-	/* Contact form validation end */
+    if (!event.isDefaultPrevented()) {
+
+        event.preventDefault();
+
+        $.ajax({
+
+            url: "/contact-submit",
+            type: "POST",
+
+            data: {
+
+                _token: $('input[name="_token"]').val(),
+
+                first_name: $('input[name="first_name"]').val(),
+
+                last_name: $('input[name="last_name"]').val(),
+
+                email: $('input[name="email"]').val(),
+
+                phone: $('input[name="phone"]').val(),
+
+                message: $('textarea[name="message"]').val()
+
+            },
+
+
+            beforeSend:function(){
+
+                $("#msgSubmit")
+                .removeClass()
+                .addClass("h4")
+                .text("Sending...");
+
+            },
+
+
+            success:function(response){
+
+                formSuccess();
+
+            },
+
+
+            error:function(xhr){
+
+                console.log(xhr.responseText);
+
+                submitMSG(false, "Something went wrong. Please try again.");
+
+            }
+
+        });
+
+    }
+
+});
+
+
+
+function formSuccess(){
+
+    $contactform[0].reset();
+
+    submitMSG(true, "Message Sent Successfully!");
+
+}
+
+
+
+function submitMSG(valid, msg){
+
+    if(valid){
+
+        var msgClasses = "h4 text-success";
+
+    } else {
+
+        var msgClasses = "h4 text-danger";
+
+    }
+
+
+    $("#msgSubmit")
+    .removeClass()
+    .addClass(msgClasses)
+    .text(msg);
+
+}
+
+
+/* Contact form validation end */
 
 	/* Our Project (filtering) Start */
 	$window.on( "load", function(){
