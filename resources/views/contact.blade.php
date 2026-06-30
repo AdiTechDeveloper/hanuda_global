@@ -48,7 +48,7 @@
                             <div class="contact-info-content">
                                 <h3>contact</h3>
                                 <p>+1 (630) 339-2658</p>
-                                 <p>(+1) 905-915-0210</p>
+                                <p>(+1) 905-915-0210</p>
                             </div>
                         </div>
                         <!-- Page Contact Item End -->
@@ -91,37 +91,49 @@
 
                     <div class="contact-form">
                         <!-- Contact Form Start -->
-                        <form id="contactForm" action="{{ route('contact.submit') }}" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.5s">
-                             @csrf
+                        <form id="contactForm" action="{{ route('contact.submit') }}" method="POST" class="wow fadeInUp" data-wow-delay="0.5s">
+                            @csrf
+
+                            @if(session('success'))
+                            <div class="alert alert-success col-md-12">
+                                {{ session('success') }}
+                            </div>
+                            @endif
+
+                            @if(session('error'))
+                            <div class="alert alert-danger col-md-12">
+                                {{ session('error') }}
+                            </div>
+                            @endif
+
                             <div class="row">
                                 <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="first_name" class="form-control" id="fname" placeholder="Enter first name" required>
-                                    <div class="help-block with-errors"></div>
+                                    <input type="text" name="first_name" class="form-control" id="fname" placeholder="Enter first name" value="{{ old('first_name') }}" required>
+                                    @error('first_name') <small class="text-danger">{{ $message }}</small> @enderror
                                 </div>
 
                                 <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="last_name" class="form-control" id="lname" placeholder="Enter last name" required>
-                                    <div class="help-block with-errors"></div>
+                                    <input type="text" name="last_name" class="form-control" id="lname" placeholder="Enter last name" value="{{ old('last_name') }}" required>
+                                    @error('last_name') <small class="text-danger">{{ $message }}</small> @enderror
                                 </div>
 
                                 <div class="form-group col-md-12 mb-4">
-                                    <input type="email" name="email" class="form-control" id="email" placeholder="Enter your e-mail" required>
-                                    <div class="help-block with-errors"></div>
+                                    <input type="email" name="email" class="form-control" id="email" placeholder="Enter your e-mail" value="{{ old('email') }}" required>
+                                    @error('email') <small class="text-danger">{{ $message }}</small> @enderror
                                 </div>
 
                                 <div class="form-group col-md-12 mb-4">
-                                    <input type="text" name="phone" class="form-control" id="phone" placeholder="Enter your phone no." required>
-                                    <div class="help-block with-errors"></div>
+                                    <input type="text" name="phone" class="form-control" id="phone" placeholder="Enter your phone no." value="{{ old('phone') }}" required>
+                                    @error('phone') <small class="text-danger">{{ $message }}</small> @enderror
                                 </div>
 
                                 <div class="form-group col-md-12 mb-5">
-                                    <textarea name="message" class="form-control" id="message" rows="4" placeholder="Write Message"></textarea>
-                                    <div class="help-block with-errors"></div>
+                                    <textarea name="message" class="form-control" id="message" rows="4" placeholder="Write Message" required>{{ old('message') }}</textarea>
+                                    @error('message') <small class="text-danger">{{ $message }}</small> @enderror
                                 </div>
 
                                 <div class="col-md-12">
                                     <button type="submit" class="btn-default"><span>submit message</span></button>
-                                    <div id="msgSubmit" class="h3 hidden"></div>
                                 </div>
                             </div>
                         </form>

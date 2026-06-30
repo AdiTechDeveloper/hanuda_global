@@ -42,10 +42,9 @@ class ContactController extends Controller
             return back()->with('success', 'Your message has been sent successfully.');
 
         } catch (\Exception $e) {
-
             Log::error('Contact form error: '.$e->getMessage());
 
-            return back()->with('error', 'Something went wrong. Please try again later.').$e->getMessage();
+            return back()->with('error', 'Something went wrong. Details: '.$e->getMessage());
         }
     }
 }
