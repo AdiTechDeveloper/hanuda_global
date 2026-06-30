@@ -6,6 +6,6 @@
 <meta name="keywords" content="">
 <meta name="author" content="Awaiken">
 <!-- Page Title -->
-<title>Toplax - Factory & Industry HTML Template</title>
+<title>Hanuda Global</title>
 <!-- Favicon Icon -->
-<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+<link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/logo.png') }}">

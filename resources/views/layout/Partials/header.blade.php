@@ -71,9 +71,9 @@
                             <div class="header-social-links">
                                 <ul>
 
-                                    <li><a href="https://www.facebook.com/people/Hanuda-Supply/61572496229733" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.instagram.com/hanuda_supply?igsh=MTc4ZDh0YzV6ZjdocA==" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/company/hanuda-supply/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                             <!-- Header Social Links End -->

@@ -40,9 +40,9 @@
                      <!-- Footer Social Link Start -->
                      <div class="footer-social-links">
                          <ul>
-                             <li><a href="https://www.facebook.com/share/17tMRVS3TZ/" title="facebook" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                             <li><a href="https://www.instagram.com/hanuda_supply?igsh=MTc4ZDh0YzV6ZjdocA==" title="instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                             <li><a href="https://www.linkedin.com/company/hanuda-supply/" title="linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                             <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                             <li><a href="#" title="instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                             <li><a href="#" title="linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
                          </ul>
                      </div>
                      <!-- Footer Social Link End -->
@@ -88,7 +88,7 @@
                      <ul>
                          <li>🇨🇦 (+1) 905-915-0210</li>
                          <li>🇺🇸 (+1) 630-339-2658</li>
-                         <li>info@hanuda.ca</li>
+                         <li>Info@hanudaglobal.com</li>
                          <li>17 McEwan Dr West, Bolton
                              Ontario, Canada L7E1H5</li>
                      </ul>

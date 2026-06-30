@@ -34,11 +34,11 @@
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Bearings</a>
+                                <a href="#">Bearings</a>
                             </div>
 
                             <div class="project-content">
-                                <h3><a href="project-single.html">Total Quality Management Implementation</a></h3>
+                                <h3><a href="#">Total Quality Management Implementation</a></h3>
                             </div>
                         </div>
                         <!-- Project Item End -->
@@ -54,11 +54,11 @@
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">electricalmotors</a>
+                                <a href="#">electricalmotors</a>
                             </div>
 
                             <div class="project-content">
-                                <h3><a href="project-single.html">Advanced Research in Material Science</a></h3>
+                                <h3><a href="#">Advanced Research in Material Science</a></h3>
                             </div>
                         </div>
                         <!-- Project Item End -->
@@ -74,11 +74,11 @@
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Belting Belts</a>
+                                <a href="#">Belting Belts</a>
                             </div>
 
                             <div class="project-content">
-                                <h3><a href="project-single.html">Workplace Safety Enhancement Initiative</a></h3>
+                                <h3><a href="#">Workplace Safety Enhancement Initiative</a></h3>
                             </div>
                         </div>
                         <!-- Project Item End -->
@@ -94,11 +94,12 @@
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Roller Chains</a>
+                                <a href="#">Roller Chains</a>
                             </div>
 
                             <div class="project-content">
-                                <h3><a href="project-single.html">Robotic Process Automation Deployment</a></h3>
+                                <h3><a href="
+                                    #">Robotic Process Automation Deployment</a></h3>
                             </div>
                         </div>
                         <!-- Project Item End -->
@@ -114,11 +115,12 @@
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Gear Boxes</a>
+                                <a href="#">Gear Boxes</a>
                             </div>
 
                             <div class="project-content">
-                                <h3><a href="project-single.html">Energy-Efficient Manufacturing Systems</a></h3>
+                                <h3><a href="
+                                    #">Energy-Efficient Manufacturing Systems</a></h3>
                             </div>
                         </div>
                         <!-- Project Item End -->
@@ -134,11 +136,12 @@
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Casters</a>
+                                <a href="3">Casters</a>
                             </div>
 
                             <div class="project-content">
-                                <h3><a href="project-single.html">Redesigning Factory Layouts for Efficiency</a></h3>
+                                <h3><a href="
+                                    #">Redesigning Factory Layouts for Efficiency</a></h3>
                             </div>
                         </div>
                         <!-- Project Item End -->
@@ -154,11 +157,11 @@
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Lubricants</a>
+                                <a href="#">Lubricants</a>
                             </div>
 
                             <div class="project-content">
-                                <h3><a href="project-single.html">Redesigning Factory Layouts for Efficiency</a></h3>
+                                <h3><a href="#">Redesigning Factory Layouts for Efficiency</a></h3>
                             </div>
                         </div>
                         <!-- Project Item End -->
@@ -174,11 +177,11 @@
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Construction & Mining</a>
+                                <a href="#">Construction & Mining</a>
                             </div>
 
                             <div class="project-content">
-                                <h3><a href="project-single.html">Redesigning Factory Layouts for Efficiency</a></h3>
+                                <h3><a href="#">Redesigning Factory Layouts for Efficiency</a></h3>
                             </div>
                         </div>
                         <!-- Project Item End -->
