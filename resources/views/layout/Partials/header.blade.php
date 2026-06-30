@@ -8,7 +8,7 @@
                     <div class="col-lg-3 col-md-4 col-12">
                         <div class="text-center text-md-start">
                             <a href="{{ url('/') }}">
-                                <img src="{{ asset('assets/images/new3.png') }}" alt="Hanuda Supply Logo">
+                                <img src="{{ asset('assets/images/hanudalogo.png') }}" alt="Hanuda Supply Logo">
                             </a>
                         </div>
                     </div>
@@ -24,10 +24,10 @@
                                 <li>
                                     <a href="tel:+16303392658">
                                         <div class="country-icon">
-                                            <img src="{{ asset('assets/images/US.png') }}" alt="USA">
+                                            <img src="{{ asset('assets/images/united-states.svg') }}" alt="USA">
                                         </div>
                                         <div>
-                                            <span>USA</span>
+                                          
                                             <p>(+1) 630-339-2658</p>
                                         </div>
                                     </a>
@@ -38,10 +38,10 @@
                                 <li>
                                     <a href="tel:+16472692148">
                                         <div class="country-icon">
-                                            <img src="{{ asset('assets/images/Canada.png') }}" alt="Canada">
+                                            <img src="{{ asset('assets/images/canada.svg') }}" alt="Canada">
                                         </div>
                                         <div>
-                                            <span>Canada</span>
+                                            {{-- <span>Canada</span> --}}
                                             <p>(+1) 905-915-0210</p>
                                         </div>
                                     </a>
@@ -53,11 +53,11 @@
                                     <a href="mailto:Info@hanudaglobal.com">
 
                                         <div class="icon-box">
-                                            <img src="{{ asset('assets/images/icon-mail.svg') }}" alt="Email">
+                                            <i class="fas fa-envelope" alt="Email"></i>
                                         </div>
 
                                         <div>
-                                            <span>Email</span>
+                                            {{-- <span>Email</span> --}}
                                             <p>Info@hanudaglobal.com</p>
                                         </div>
 
@@ -89,7 +89,7 @@
                 <div class="container">
                     <!-- Logo Start -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="{{ asset('assets/images/new3.png') }}" alt="Logo">
+                        <img src="{{ asset('assets/images/new1.png') }}" alt="Logo">
                     </a>
                     <!-- Logo End -->
 
@@ -153,7 +153,7 @@
         .topbar-contact-info ul {
             display: flex;
             align-items: center;
-            gap: 25px;
+            /* gap: 25px; */
             padding: 0;
             margin: 0;
             list-style: none;
@@ -170,8 +170,8 @@
 
 
         .country-icon img {
-            width: 36px;
-            height: 26px;
+            width: 25px;
+            height: 25px;
             object-fit: cover;
         }
 

@@ -198,8 +198,15 @@
 
                         <p>
                             <i class="bi bi-telephone"></i>
-                           +1 (630) 339-2658
+                           (+1) 630 339-2658
                         </p>
+
+                          <p>
+                            <i class="bi bi-telephone"></i>
+                           (+1) 905-915-0210
+
+                        </p>
+
 
                     </div>
 

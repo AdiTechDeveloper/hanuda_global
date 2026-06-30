@@ -524,11 +524,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    background: var(--accent-color);
-    border-radius: 10px;
-    margin-right: 20px;
+    width: 25px;
+    height: 25px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -542,7 +539,7 @@ body {
 
 .topbar-contact-info ul li p {
     color: var(--primary-color);
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 700;
     width: calc(100% - 60px);
     margin: 0;
@@ -2109,7 +2106,7 @@ header.main-header .header-sticky.active {
 
 .testimonial-company-slider .company-logo img {
     width: 100%;
-    max-height: 115px;
+    height: 150px;
 }
 
 /************************************/
@@ -2244,7 +2241,8 @@ header.main-header .header-sticky.active {
 }
 
 .footer-logo img {
-    max-width: 180px;
+    max-width: 260px;
+    height: 100px;
 }
 
 .about-footer-content {
@@ -4718,7 +4716,7 @@ header.main-header .header-sticky.active {
     }
 
     .topbar-contact-info li .icon-box img {
-        max-width: 20px;
+        max-width: 25px;
     }
 
     .topbar-contact-info ul li p {

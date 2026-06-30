@@ -29,13 +29,13 @@
                  <div class="about-footer">
                      <!-- Footer Logo Start -->
                      <div class="footer-logo">
-                         <img src="{{ asset('assets/images/new3.png') }}" alt="">
+                         <img src="{{ asset('assets/images/hanuda.png') }}" alt="">
                      </div>
                      <!-- Footer Logo End -->
 
                      <!-- About Footer Content Start -->
                      <div class="about-footer-content">
-                         <p>We are committed to providing personalized industrial solutions.</p>
+                         <p>Supporting industries with Reliable Supply, Quality Products, and Trusted Partner.</p>
                      </div>
                      <!-- About Footer Content End -->
 
@@ -98,7 +98,7 @@
             <!-- Canada Number -->
             <li>
                 <a href="tel:+19059150210" class="footer-contact-item">
-                    <img src="{{ asset('assets/images/Canada.png') }}" alt="Canada">
+                    <img src="{{ asset('assets/images/canada.svg') }}" alt="Canada">
                     <span> (+1) 905-915-0210</span>
                 </a>
             </li>
@@ -107,7 +107,7 @@
                          <!-- USA Number -->
                          <li>
                              <a href="tel:+16303392658" class="footer-contact-item">
-                                 <img src="{{ asset('assets/images/US.png') }}" alt="USA">
+                                 <img src="{{ asset('assets/images/united-states.svg') }}" alt="USA">
                                  <span>(+1) 630-339-2658</span>
                              </a>
                          </li>
@@ -162,6 +162,7 @@
          gap: 10px;
          text-decoration: none;
          color: inherit;
+         margin-left: -25px;
      }
 
      .footer-contact-item img {

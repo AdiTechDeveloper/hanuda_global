@@ -26,8 +26,8 @@
                 <div class="hero-content">
                     <!-- Section Title Start -->
                     <div class="section-title dark-section">
-                        <h3 class="wow fadeInUp">welcome to Hanuda Global</h3>
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Complete MRO Supply Solutions <span>For Industrial Excellence</span></h1>
+                        <h3 class="wow fadeInUp">welcome to Hanuda Global Supply & Services INC.</h3>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">Reliable Supply | Quality Products | Trusted Partner </h1>
                         <p class="wow fadeInUp" data-wow-delay="0.25s">Hanuda Global delivers dependable Maintenance,
                             Repair, and Operations solutions tailored for industrial environments. With a strong
                             portfolio of mechanical, electrical, and power transmission products, we help businesses
@@ -868,11 +868,11 @@
 
 <style>
     .company-logo{
-    height:120px;
+    height:150px;
     display:flex;
     align-items:center;
     justify-content:center;
-    padding:20px;
+    padding:10px;
 }
 
 
