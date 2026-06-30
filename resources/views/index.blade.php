@@ -725,7 +725,7 @@
 
                 <div class="swiper-slide">
                     <div class="company-logo">
-                        <img src="{{ asset('assets/images/client_icon_3.png') }}" alt="Client Logo">
+                        <img src="{{ asset('assets/images/client_icon_8.png') }}" alt="Client Logo">
                     </div>
                 </div>
 
@@ -744,6 +744,16 @@
                 <div class="swiper-slide">
                     <div class="company-logo">
                         <img src="{{ asset('assets/images/client_icon_6.png') }}" alt="Client Logo">
+                    </div>
+                </div>
+                 <div class="swiper-slide">
+                    <div class="company-logo">
+                        <img src="{{ asset('assets/images/elecon.webp') }}" alt="Client Logo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="company-logo">
+                        <img src="{{ asset('assets/images/weg1.png') }}" alt="Client Logo">
                     </div>
                 </div>
 

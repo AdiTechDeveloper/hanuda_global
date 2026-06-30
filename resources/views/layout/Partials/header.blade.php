@@ -89,7 +89,7 @@
                 <div class="container">
                     <!-- Logo Start -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="{{ asset('assets/images/logo1.png') }}" alt="Logo">
+                        <img src="{{ asset('assets/images/new3.png') }}" alt="Logo">
                     </a>
                     <!-- Logo End -->
 
