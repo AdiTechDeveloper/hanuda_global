@@ -15,9 +15,9 @@
 
                      <!-- Footer Contact Circle Start -->
                      <div class="footer-contact-circle">
-                        <a href="{{url('/contact')}}">
-                         <img src="{{ asset('assets/images/contact-now-circle.svg') }}" alt="">
-                        </a>
+                         <a href="{{url('/contact')}}">
+                             <img src="{{ asset('assets/images/contact-now-circle.svg') }}" alt="">
+                         </a>
                      </div>
                      <!-- Footer Contact Circle End -->
                  </div>
@@ -57,8 +57,8 @@
                  <div class="footer-links">
                      <h3>quick links</h3>
                      <ul>
-                         <li><a href="{{ url('/') }}">home</a></li>
-                         <li><a href="{{ url('/about') }}">about us</a></li>
+                         <li><a href="{{ url('/') }}">Home</a></li>
+                         <li><a href="{{ url('/about') }}">About Us</a></li>
                          <li><a href="{{ url('/contact') }}">Contact</a></li>
                          <li><a href="{{ url('/terms-conditions') }}">Terms & Conditions</a></li>
                          <li><a href="{{ url('/help') }}">Help</a></li>
@@ -67,66 +67,71 @@
                  <!-- Footer Links End -->
              </div>
 
+             @php
+             $products = config('products');
+             @endphp
+
              <div class="col-lg-2 col-md-4 col-6">
                  <!-- Footer Links Start -->
                  <div class="footer-links">
                      <h3>Products</h3>
                      <ul>
-                         <li><a href="#">Bearings</a></li>
-                         <li><a href="#">Electrical Motors</a></li>
-                         <li><a href="#">Belting / Belts</a></li>
-                         <li><a href="contact.html">Roller Chains</a></li>
-                         <li><a href="#">Gear Boxes</a></li>
-                         <li><a href="#">Casters</a></li>
+                         @foreach($products as $product)
+                         <li>
+                             <a href="{{ url('/products/'.$product['slug']) }}">
+                                 {{ $product['title'] }}
+                             </a>
+                         </li>
+                         @endforeach
                      </ul>
                  </div>
                  <!-- Footer Links End -->
              </div>
 
-            <div class="col-lg-2 col-md-4 col-12">
-    <!-- Footer Links Start -->
-    <div class="footer-links">
-        <h3>Contact</h3>
+             <div class="col-lg-2 col-md-4 col-12">
+                 <!-- Footer Links Start -->
+                 <div class="footer-links">
+                     <h3>Contact</h3>
 
-        <ul>
+                     <ul>
 
-            <!-- Canada Number -->
-            <li>
-                <a href="tel:+19059150210" class="footer-contact-item">
-                    <img src="{{ asset('assets/images/Canada.png') }}" alt="Canada">
-                    <span>(+1) 905-915-0210</span>
-                </a>
-            </li>
-
-
-            <!-- USA Number -->
-            <li>
-                <a href="tel:+16303392658" class="footer-contact-item">
-                    <img src="{{ asset('assets/images/US.png') }}" alt="USA">
-                    <span>(+1) 630-339-2658</span>
-                </a>
-            </li>
+                         <!-- Canada Number -->
+                         <li>
+                             <a href="tel:+19059150210" class="footer-contact-item">
+                                 <img src="{{ asset('assets/images/Canada.png') }}" alt="Canada">
+                                 <span>(+1) 905-915-0210</span>
+                             </a>
+                         </li>
 
 
-            <!-- Email -->
-            <li>
-                <a href="mailto:info@hanudaglobal.com">
-                    info@hanudaglobal.com
-                </a>
-            </li>
+                         <!-- USA Number -->
+                         <li>
+                             <a href="tel:+16303392658" class="footer-contact-item">
+                                 <img src="{{ asset('assets/images/US.png') }}" alt="USA">
+                                 <span>(+1) 630-339-2658</span>
+                             </a>
+                         </li>
 
 
-            <!-- Address -->
-            <li>
-                17 McEwan Dr West, Bolton
-                Ontario, Canada L7E1H5
-            </li>
+                         <!-- Email -->
+                         <li>
+                             <a class="email" href="mailto:info@hanudaglobal.com">
+                                 info@hanudaglobal.com
+                             </a>
+                         </li>
 
-        </ul>
 
-    </div>
-    <!-- Footer Links End -->
-</div>
+                         <!-- Address -->
+                         <li>
+                             17 McEwan Dr West, Bolton
+                             Ontario, Canada L7E1H5
+                         </li>
+
+                     </ul>
+
+                 </div>
+                 <!-- Footer Links End -->
+             </div>
          </div>
 
          <!-- Footer Copyright Section Start -->
@@ -151,27 +156,24 @@
  </footer>
 
  <style>
-    .footer-contact-item{
-    display:flex;
-    align-items:center;
-    gap:10px;
-    text-decoration:none;
-    color:inherit;
-}
+     .footer-contact-item {
+         display: flex;
+         align-items: center;
+         gap: 10px;
+         text-decoration: none;
+         color: inherit;
+     }
 
+     .footer-contact-item img {
+         width: 24px;
+         height: 16px;
+         object-fit: cover;
+         border-radius: 2px;
+     }
 
-.footer-contact-item img{
+     .footer-contact-item span {
+         line-height: 1.5;
+     }
 
-    width:24px;
-    height:16px;
-    object-fit:cover;
-    border-radius:2px;
-
-}
-
-
-.footer-contact-item span{
-    line-height:1.5;
-}
-</style>
+ </style>
  <!-- Footer End -->
