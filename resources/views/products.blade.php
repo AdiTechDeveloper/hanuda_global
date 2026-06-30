@@ -31,7 +31,7 @@
                     [
                     'slug'=>'bearings',
                     'class'=>'bearings',
-                    'img'=>'bearings.jpeg',
+                    'img'=>'bearings.jpg',
                     'title'=>'High-Performance Bearings for Industrial Applications',
                     'tag'=>'Bearings',
                     ],
@@ -45,14 +45,14 @@
                     [
                     'slug'=>'beltingbelts',
                     'class'=>'beltingbelts',
-                    'img'=>'belts.jpeg',
+                    'img'=>'belts.jpg',
                     'title'=>'Durable Belting Solutions for Power Transmission',
                     'tag'=>'Belting Belts'
                     ],
                     [
                     'slug'=>'rollerchains',
                     'class'=>'rollerchains',
-                    'img'=>'roller-chain.jpeg',
+                    'img'=>'roller-chain.jpg',
                     'title'=>'Precision Roller Chains for Smooth Operations',
                     'tag'=>'Roller Chains'
                     ],
@@ -66,7 +66,7 @@
                     [
                     'slug'=>'casters',
                     'class'=>'casters',
-                    'img'=>'casters.jpeg',
+                    'img'=>'casters.jpg',
                     'title'=>'Heavy Duty Casters for Material Handling',
                     'tag'=>'Casters'
                     ],
@@ -78,9 +78,9 @@
                     'tag'=>'Lubricants'
                     ],
                     [
-                    'slug'=>'constructiomining',
+                    'slug'=>'constructionmining',
                     'class'=>'constructionmining',
-                    'img'=>'construction-mining.jpeg',
+                    'img'=>'construction-mining.jpg',
                     'title'=>'Reliable Solutions for Construction & Mining Equipment',
                     'tag'=>'Construction & Mining'
                     ],

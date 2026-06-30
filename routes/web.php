@@ -24,7 +24,7 @@ Route::get('/products/{slug}', function ($slug) {
     $projects = [
         'bearings' => [
             'title' => 'High-Performance Bearings',
-            'image' => 'bearings.jpeg',
+            'image' => 'bearings.jpg',
             'intro' => 'High-quality industrial bearings designed to reduce friction, support loads, and ensure smooth rotational movement across a wide range of applications. Our bearings are suitable for demanding industrial environments where reliability and precision are critical.',
             'details' => 'Hanuda Supply offers a comprehensive range of bearings for maintenance, repair, and replacement needs, supporting consistent equipment performance and extended service life.',
             'points' => [
@@ -52,7 +52,7 @@ Route::get('/products/{slug}', function ($slug) {
         ],
         'beltingbelts' => [
             'title' => 'Durable Belting Solutions',
-            'image' => 'belts.jpeg',
+            'image' => 'belts.jpg',
             'intro' => 'Industrial belting solutions designed for power transmission, conveying, and material handling applications. Our belts ensure efficient motion transfer and stable performance under varying load conditions.',
             'details' => 'We supply durable belts suitable for demanding environments, helping maintain smooth and uninterrupted operations.',
             'points' => [
@@ -66,7 +66,7 @@ Route::get('/products/{slug}', function ($slug) {
         ],
         'rollerchains' => [
             'title' => 'Precision Roller Chains',
-            'image' => 'roller-chain.jpeg',
+            'image' => 'roller-chain.jpg',
             'intro' => 'Heavy-duty roller chains designed for reliable power transmission and motion control in industrial machinery. These chains ensure smooth operation and consistent load handling.',
             'details' => 'Our roller chains are suitable for applications requiring strength, precision, and durability.',
             'points' => [
@@ -94,7 +94,7 @@ Route::get('/products/{slug}', function ($slug) {
         ],
         'casters' => [
             'title' => 'Heavy Duty Casters',
-            'image' => 'casters.jpeg',
+            'image' => 'casters.jpg',
             'intro' => 'Industrial casters designed for smooth mobility and safe material handling across various environments. These casters support easy movement of heavy equipment and workstations.',
             'details' => 'Our range includes durable casters suitable for industrial floors and continuous use.',
             'points' => [
@@ -120,9 +120,9 @@ Route::get('/products/{slug}', function ($slug) {
             ],
             'why_choose' => 'Our lubricants help ensure smooth operation, reduced maintenance, and improved equipment reliability.',
         ],
-        'constructiomining' => [
+        'constructionmining' => [
             'title' => 'Construction & Mining Machinery Bearings',
-            'image' => 'construction-mining.jpeg',
+            'image' => 'construction-mining.jpg',
             'intro' => 'Heavy-duty bearings designed specifically for construction and mining machinery operating in harsh environments. These bearings support high loads, shock resistance, and continuous operation.',
             'details' => 'Our bearings are suitable for excavators, loaders, crushers, and other heavy equipment used in demanding applications.',
             'points' => [
