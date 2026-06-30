@@ -1,4 +1,5 @@
 @extends('layout.default')
+@section('title', 'Products')
 @section('content')
 <div class="page-projects">
     <div class="container">
@@ -27,33 +28,91 @@
 
                     @php
                     $projects = [
-                    ['class'=>'bearings','img'=>'bearings.jpeg','title'=>'Total Quality Management Implementation','tag'=>'Bearings'],
-                    ['class'=>'electricalmotors','img'=>'electrical-moter.jpeg','title'=>'Advanced Research in Material Science','tag'=>'Electrical Motors'],
-                    ['class'=>'beltingbelts','img'=>'belts.jpeg','title'=>'Workplace Safety Enhancement Initiative','tag'=>'Belting Belts'],
-                    ['class'=>'rollerchains','img'=>'roller-chain.jpeg','title'=>'Robotic Process Automation Deployment','tag'=>'Roller Chains'],
-                    ['class'=>'gearboxes','img'=>'gear-box.jpeg','title'=>'Energy-Efficient Manufacturing Systems','tag'=>'Gear Boxes'],
-                    ['class'=>'casters','img'=>'casters.jpeg','title'=>'Redesigning Factory Layouts for Efficiency','tag'=>'Casters'],
-                    ['class'=>'lubricants','img'=>'lubricants.jpeg','title'=>'Optimized Lubrication Systems','tag'=>'Lubricants'],
-                    ['class'=>'constructionmining','img'=>'construction-mining.jpeg','title'=>'Heavy Equipment Optimization','tag'=>'Construction & Mining'],
+                    [
+                    'slug'=>'bearings',
+                    'class'=>'bearings',
+                    'img'=>'bearings.jpeg',
+                    'title'=>'High-Performance Bearings for Industrial Applications',
+                    'tag'=>'Bearings',
+                    ],
+                    [
+                    'slug'=>'electricalmotors',
+                    'class'=>'electricalmotors',
+                    'img'=>'electrical-moter.jpeg',
+                    'title'=>'Energy Efficient Electrical Motors for Heavy Duty Use',
+                    'tag'=>'Electrical Motors'
+                    ],
+                    [
+                    'slug'=>'beltingbelts',
+                    'class'=>'beltingbelts',
+                    'img'=>'belts.jpeg',
+                    'title'=>'Durable Belting Solutions for Power Transmission',
+                    'tag'=>'Belting Belts'
+                    ],
+                    [
+                    'slug'=>'rollerchains',
+                    'class'=>'rollerchains',
+                    'img'=>'roller-chain.jpeg',
+                    'title'=>'Precision Roller Chains for Smooth Operations',
+                    'tag'=>'Roller Chains'
+                    ],
+                    [
+                    'slug'=>'gearboxes',
+                    'class'=>'gearboxes',
+                    'img'=>'gear-box.jpeg',
+                    'title'=>'Robust Gear Boxes for Industrial Machinery',
+                    'tag'=>'Gear Boxes'
+                    ],
+                    [
+                    'slug'=>'casters',
+                    'class'=>'casters',
+                    'img'=>'casters.jpeg',
+                    'title'=>'Heavy Duty Casters for Material Handling',
+                    'tag'=>'Casters'
+                    ],
+                    [
+                    'slug'=>'lubricants',
+                    'class'=>'lubricants',
+                    'img'=>'lubricants.jpeg',
+                    'title'=>'Premium Lubricants for Equipment Longevity',
+                    'tag'=>'Lubricants'
+                    ],
+                    [
+                    'slug'=>'constructiomining',
+                    'class'=>'constructionmining',
+                    'img'=>'construction-mining.jpeg',
+                    'title'=>'Reliable Solutions for Construction & Mining Equipment',
+                    'tag'=>'Construction & Mining'
+                    ],
                     ];
                     @endphp
 
                     @foreach($projects as $index => $project)
-                    <div class="col-md-6 project-item-box {{ $project['class'] }}">
+                    <div class="col-lg-3 col-md-6 project-item-box {{ $project['class'] }}">
                         <div class="project-item wow fadeInUp" data-wow-delay="{{ $index * 0.2 }}s">
+
                             <div class="project-image">
-                                <figure class="image-anime">
-                                    <img src="{{ asset('assets/images/'.$project['img']) }}" alt="{{ $project['tag'] }}">
-                                </figure>
+                                <a href="{{ url('products/'.$project['slug']) }}">
+                                    <figure class="image-anime">
+                                        <img src="{{ asset('assets/images/'.$project['img']) }}" alt="{{ $project['tag'] }}" class="img-fluid">
+                                    </figure>
+                                </a>
                             </div>
 
                             <div class="project-tag">
-                                <a href="#">{{ $project['tag'] }}</a>
+                                <a href="{{ url('products/'.$project['slug']) }}">
+                                    {{ $project['tag'] }}
+                                </a>
                             </div>
 
                             <div class="project-content">
-                                <h3><a href="#">{{ $project['title'] }}</a></h3>
+                                <h6>
+                                    <a href="{{ url('products/'.$project['slug']) }}">
+                                        {{ $project['title'] }}
+                                    </a>
+                                </h6>
                             </div>
+
                         </div>
                     </div>
                     @endforeach
@@ -67,7 +126,6 @@
 @endsection
 
 
-{{-- ✅ IMPORTANT SCRIPTS --}}
 @section('scripts')
 <script>
     $(document).ready(function() {
