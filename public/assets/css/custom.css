@@ -1668,6 +1668,10 @@ header.main-header .header-sticky.active{
 	color: inherit;
 }
 
+.project-content h6 a {
+    color: inherit;
+}
+
 /************************************/
 /***      10. Our Process css     ***/
 /************************************/
@@ -2084,7 +2088,7 @@ header.main-header .header-sticky.active{
 
 .testimonial-company-slider .company-logo img{
 	width: 100%;
-	max-height: 40px;
+	max-height: 80px;
 }
 
 /************************************/
@@ -2299,6 +2303,7 @@ header.main-header .header-sticky.active{
 .footer-links ul li a{
 	color: inherit;
 	transition: all 0.3s ease-in-out;
+	text-transform: lowercase;
 }
 
 .footer-links ul li:hover a{
@@ -2323,7 +2328,7 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	position: relative;
-	background: url('../images/page-header-bg.jpg') no-repeat center center;
+	background: url('../images/banner.png') no-repeat center center;
 	background-size: cover;
 	padding: 150px 0;
 }

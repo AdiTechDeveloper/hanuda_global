@@ -26,9 +26,8 @@
                 <div class="hero-content">
                     <!-- Section Title Start -->
                     <div class="section-title dark-section">
-                        <h3 class="wow fadeInUp">welcome to Hunada Global</h3>
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Excellence innovating <span>industry for
-                                today</span></h1>
+                        <h3 class="wow fadeInUp">welcome to Hanuda Global</h3>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">Complete MRO Supply Solutions <span>For Industrial Excellence</span></h1>
                         <p class="wow fadeInUp" data-wow-delay="0.25s">Hanuda Global delivers dependable Maintenance,
                             Repair, and Operations solutions tailored for industrial environments. With a strong
                             portfolio of mechanical, electrical, and power transmission products, we help businesses
@@ -38,7 +37,7 @@
 
                     <!-- Hero Button Start -->
                     <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                        <a href="contact.html" class="btn-default"><span>explore more</span></a>
+                        <a href="{{ url('/about') }}" class="btn-default"><span>explore more</span></a>
                     </div>
                     <!-- Hero Button End -->
                 </div>
@@ -104,9 +103,8 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">about us</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Reliable MRO Solutions
-                            <span>That Keep Industry Moving
-                                innovation</span>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Engineering Reliability For 
+                            <span>The Industries That Drive The World</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.25s">Hanuda Global is a trusted supplier of
                             Maintenance, Repair, and Operations (MRO) products, supporting industrial facilities with
@@ -122,8 +120,8 @@
                                     <!-- About Content List Start -->
                                     <div class="about-content-list wow fadeInUp" data-wow-delay="0.5s">
                                         <ul>
-                                            <li>Quality Industrial Components</li>
                                             <li>Complete MRO Solutions</li>
+                                            <li>Quality Industrial Products</li>
                                             <li>Minimized Equipment Downtime</li>
                                             <li>Expert Technical Support</li>
                                         </ul>
@@ -132,7 +130,7 @@
 
                                     <!-- About Content Btn Start -->
                                     <div class="about-content-btn wow fadeInUp" data-wow-delay="0.75s">
-                                        <a href="about.html" class="btn-default"><span>learn more</span></a>
+                                        <a href="{{ url('/about') }}" class="btn-default"><span>learn more</span></a>
                                     </div>
                                     <!-- About Content Btn End -->
                                 </div>
@@ -185,9 +183,7 @@
                 <!-- Section Title Start -->
                 <div class="section-title dark-section">
                     <h3 class="wow fadeInUp">services</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">Complete MRO Supply Solutions <span>for
-                            industrial
-                            excellence</span></h2>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">Complete Industrial Solutions <span>Built Around Reliability</span></h2>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -220,11 +216,11 @@
                         </div>
 
                         <div class="service-body">
-                            <h3>Bearings & Motion Components</h3>
+                            <h3>Bearings & Motion Control Products</h3>
                         </div>
 
                         <div class="service-footer">
-                            <a href="service-single.html" class="service-btn">
+                            <a href="{{ url('/products') }}" class="service-btn">
                                 <img src="{{ asset('assets/images/arrow-dark.svg') }}" alt="">
                             </a>
                         </div>
@@ -239,11 +235,11 @@
 
                         <div class="service-body">
                             <h3>
-                                Electrical Motors & Drives</h3>
+                                Electrical Products & Drives</h3>
                         </div>
 
                         <div class="service-footer">
-                            <a href="service-single.html" class="service-btn">
+                            <a href="{{ url('/products') }}" class="service-btn">
                                 <img src="{{ asset('assets/images/arrow-dark.svg') }}" alt="">
                             </a>
                         </div>
@@ -257,11 +253,11 @@
                         </div>
 
                         <div class="service-body">
-                            <h3>Mechanical & Power Transmission</h3>
+                            <h3>Mechanical & Power Transmission Products</h3>
                         </div>
 
                         <div class="service-footer">
-                            <a href="service-single.html" class="service-btn">
+                            <a href="{{ url('/products') }}" class="service-btn">
                                 <img src="{{ asset('assets/images/arrow-dark.svg') }}" alt="">
                             </a>
                         </div>
@@ -276,11 +272,11 @@
 
                         <div class="service-body">
                             <h3>
-                                Industrial Belting Solutions</h3>
+                                Industrial Belting Products</h3>
                         </div>
 
                         <div class="service-footer">
-                            <a href="service-single.html" class="service-btn">
+                            <a href="{{ url('/products') }}" class="service-btn">
                                 <img src="{{ asset('assets/images/arrow-dark.svg') }}" alt="">
                             </a>
                         </div>
@@ -356,14 +352,7 @@
                             <h3><span class="counter">15</span>+</h3>
                             <p>Employees</p>
                         </div>
-                        <!-- Our Story Counter End -->
-
-                        <!-- Our Story Counter Start -->
-                        {{-- <div class="our-story-counter">
-                                <h3><span class="counter">10</span>k+</h3>
-                                <p>years of mastery</p>
-                            </div> --}}
-                        <!-- Our Story Counter End -->
+                       
                     </div>
 
                     <!-- Our Story Intro Video Start -->
@@ -409,7 +398,7 @@
             </div>
             <!-- Intro Video Box End -->
         </div> --}}
-        <!-- Our Story Intro Video End -->
+        
     </div>
 </div>
 </div>
@@ -417,8 +406,8 @@
 </div>
 <!-- Our Story End -->
 
-<!-- What We Do Start -->
-{{-- <div class="what-we-do">
+  <!-- What We Do Start -->
+     <div class="what-we-do">
         <div class="container-fluid">
             <div class="row no-gutters">
                 <div class="col-lg-6">
@@ -427,9 +416,7 @@
                         <!-- Section Title Start -->
                         <div class="section-title dark-section">
                             <h3 class="wow fadeInUp">what we do</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Innovative factory and industry
-                                <span>solutions today</span>
-                            </h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Supporting Industries With <span>Smarter Supply Solutions</span></h2>
                         </div>
                         <!-- Section Title End -->
 
@@ -440,214 +427,87 @@
                                 <div class="what-we-do-item">
                                     <div class="icon-box">
                                         <img src="{{ asset('assets/images/icon-who-we-do-1.svg') }}" alt="">
-</div>
-<div class="what-we-item-content">
-    <h3>automation solutions</h3>
-    <p>Streamlining processes through cutting-edge technology.</p>
-</div>
-</div>
-<!-- What We Do Item End -->
+                                    </div>
+                                    <div class="what-we-item-content">
+                                        <h3>Quality Control</h3>
+                                        <p>Reliable industrial products from trusted brands.</p>
+                                    </div>
+                                </div>
+                                <!-- What We Do Item End -->
 
-<!-- What We Do Item Start -->
-<div class="what-we-do-item">
-    <div class="icon-box">
-        <img src="{{ asset('assets/images/icon-who-we-do-2.svg') }}" alt="">
-    </div>
-    <div class="what-we-item-content">
-        <h3>quality control</h3>
-        <p>Ensuring product excellence through rigorous testing.</p>
-    </div>
-</div>
-<!-- What We Do Item End -->
-</div>
+                                <!-- What We Do Item Start -->
+                                <div class="what-we-do-item">
+                                    <div class="icon-box">
+                                        <img src="{{ asset('assets/images/icon-who-we-do-2.svg') }}" alt="">
+                                    </div>
+                                    <div class="what-we-item-content">
+                                        <h3>MRO Expertise</h3>
+                                        <p>Solutions designed for maintenance and operational efficiency.</p>
+                                    </div>
+                                </div>
+                                <!-- What We Do Item End -->
+                            </div> 
+                            
+                            <div class="what-we-do-list-box-2">
+                                <!-- What We Do Item Start -->
+                                <div class="what-we-do-item">
+                                    <div class="icon-box">
+                                        <img src="{{ asset('assets/images/icon-who-we-do-3.svg') }}" alt="">
+                                    </div>
+                                    <div class="what-we-item-content">
+                                        <h3>Industry Support</h3>
+                                        <p>Helping businesses improve performance and reduce downtime.</p>
+                                    </div>
+                                </div>
+                                <!-- What We Do Item End -->
 
-<div class="what-we-do-list-box-2">
-    <!-- What We Do Item Start -->
-    <div class="what-we-do-item">
-        <div class="icon-box">
-            <img src="{{ asset('assets/images/icon-who-we-do-3.svg') }}" alt="">
-        </div>
-        <div class="what-we-item-content">
-            <h3>process engineering</h3>
-            <p>Ensuring product excellence through rigorous testing.</p>
-        </div>
-    </div>
-    <!-- What We Do Item End -->
+                                <!-- What We Do Item Start -->
+                                <div class="what-we-do-item">
+                                    <div class="icon-box">
+                                        <img src="{{ asset('assets/images/icon-who-we-do-4.svg') }}" alt="">
+                                    </div>
+                                    <div class="what-we-item-content">
+                                        <h3>On-Time Delivery</h3>
+                                        <p>Dependable supply chain support when you need it most.</p>
+                                    </div>
+                                </div>
+                                <!-- What We Do Item End -->
+                            </div>                                         
+                        </div>
+                        <!-- What We Do List Start -->
 
-    <!-- What We Do Item Start -->
-    <div class="what-we-do-item">
-        <div class="icon-box">
-            <img src="{{ asset('assets/images/icon-who-we-do-4.svg') }}" alt="">
-        </div>
-        <div class="what-we-item-content">
-            <h3>product development</h3>
-            <p>Streamlining processes through cutting-edge technology.</p>
-        </div>
-    </div>
-    <!-- What We Do Item End -->
-</div>
-</div>
-<!-- What We Do List Start -->
-
-<!-- What We Do Footer Start -->
-<div class="what-we-do-footer">
-    <p>Lorem ipsum is a placeholder text commonly used <span>to demonstrate</span></p>
-</div>
-<!-- What We Do Footer End -->
-</div>
-<!-- What We Do Content End -->
-</div>
-
-<div class="col-lg-6">
-    <!-- What We Do Image Start -->
-    <div class="what-we-do-image">
-        <figure class="image-anime">
-            <img src="{{ asset('assets/images/what-we-do-image.jpg') }}" alt="">
-        </figure>
-
-        <!-- Contact Now Circle Start -->
-        <div class="contact-now-circle">
-            <img src="{{ asset('assets/images/contact-now-circle.svg') }}" alt="">
-        </div>
-        <!-- Contact Now Circle End -->
-    </div>
-    <!-- What We Do Image End -->
-</div>
-</div>
-</div>
-</div> --}}
-<!-- What We Do End -->
-
-<!-- Our Work Section Start -->
-{{-- <div class="our-work">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-6">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">our work</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Our successful project
-                            <span>initiatives</span>
-                        </h2>
+                        <!-- What We Do Footer Start -->
+                        {{-- <div class="what-we-do-footer">
+                            <p>Lorem ipsum is a placeholder text commonly used <span>to demonstrate</span></p>
+                        </div> --}}
+                        <!-- What We Do Footer End -->
                     </div>
-                    <!-- Section Title End -->
+                    <!-- What We Do Content End -->
                 </div>
 
                 <div class="col-lg-6">
-                    <!-- Section Title Content Start -->
-                    <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-                        <p>Our successful project initiatives showcase our commitment to excellence and innovation across
-                            various industries.</p>
-                    </div>
-                    <!-- Section Title Content End -->
+                    <!-- What We Do Image Start -->
+                    <div class="what-we-do-image">
+                        <figure class="image-anime">
+                            <img src="{{ asset('assets/images/what-we-do-image.jpg') }}" alt="">
+                        </figure>
+
+                        <!-- Contact Now Circle Start -->
+                        <div class="contact-now-circle">
+                              <a href="{{url('/contact')}}">
+                            <img src="{{ asset('assets/images/contact-now-circle.svg') }}" alt="">
+                              </a>
+                        </div>
+                        <!-- Contact Now Circle End -->
+                    </div>      
+                    <!-- What We Do Image End -->              
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Choose Our Project Nav start -->
-                    <div class="our-Project-nav wow fadeInUp" data-wow-delay="0.4s">
-                        <ul>
-                            <li><a href="#" class="active-btn" data-filter="*">all</a></li>
-                            <li><a href="#" data-filter=".manufacturing">manufacturing</a></li>
-                            <li><a href="#" data-filter=".automation">automation</a></li>
-                            <li><a href="#" data-filter=".sustainability">sustainability</a></li>
-                            <li><a href="#" data-filter=".development">development</a></li>
-                            <li><a href="#" data-filter=".infrastructure">infrastructure</a></li>
-                        </ul>
-                    </div>
-                    <!-- Choose Our Project Nav End -->
-                </div>
-
-                <div class="col-lg-12">
-                    <!-- Project Item Boxes start -->
-                    <div class="row project-item-boxes align-items-center">
-                        <div class="col-md-6 project-item-box manufacturing automation">
-                            <!-- Project Item Start -->
-                            <div class="project-item wow fadeInUp">
-                                <div class="project-image">
-                                    <figure class="image-anime">
-                                        <img src="{{ asset('assets/images/project-1.jpg') }}" alt="">
-</figure>
-</div>
-
-<div class="project-tag">
-    <a href="project-single.html">manufacturing</a>
-</div>
-
-<div class="project-content">
-    <h3><a href="project-single.html">Total Quality Management Implementation</a></h3>
-</div>
-</div>
-<!-- Project Item End -->
-</div>
-
-<div class="col-md-6 project-item-box automation sustainability development infrastructure">
-    <!-- Project Item Start -->
-    <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
-        <div class="project-image">
-            <figure class="image-anime">
-                <img src="{{ asset('assets/images/project-2.jpg') }}" alt="">
-            </figure>
         </div>
+     </div>
+    <!-- What We Do End -->
 
-        <div class="project-tag">
-            <a href="project-single.html">automation</a>
-        </div>
 
-        <div class="project-content">
-            <h3><a href="project-single.html">Advanced Research in Materials Sciences</a></h3>
-        </div>
-    </div>
-    <!-- Project Item End -->
-</div>
-
-<div class="col-md-6 project-item-box sustainability infrastructure">
-    <!-- Project Item Start -->
-    <div class="project-item wow fadeInUp" data-wow-delay="0.4s">
-        <div class="project-image">
-            <figure class="image-anime">
-                <img src="{{ asset('assets/images/project-3.jpg') }}" alt="">
-            </figure>
-        </div>
-
-        <div class="project-tag">
-            <a href="project-single.html">sustainability</a>
-        </div>
-
-        <div class="project-content">
-            <h3><a href="project-single.html">Workplace Safety Enhancement Initiative</a></h3>
-        </div>
-    </div>
-    <!-- Project Item End -->
-</div>
-
-<div class="col-md-6 project-item-box manufacturing development">
-    <!-- Project Item Start -->
-    <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
-        <div class="project-image">
-            <figure class="image-anime">
-                <img src="{{ asset('assets/images/project-4.jpg') }}" alt="">
-            </figure>
-        </div>
-
-        <div class="project-tag">
-            <a href="project-single.html">infrastructure</a>
-        </div>
-
-        <div class="project-content">
-            <h3><a href="project-single.html">Robotic Process Automation Deployment</a></h3>
-        </div>
-    </div>
-    <!-- Project Item End -->
-</div>
-</div>
-<!-- Project Item Boxes End -->
-</div>
-</div>
-</div>
-</div> --}}
-<!-- Our Work Section End -->
 
 <!-- Our Process Section Start -->
 <div class="our-process">
@@ -730,136 +590,7 @@
 </div>
 <!-- Our Process Section End -->
 
-<!-- Our Pricing Section Start -->
-{{-- <div class="our-pricing">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-6">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">pricing plan</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Transparent pricing for <span>every
-                                solution</span></h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
 
-                <div class="col-lg-6">
-                    <!-- Section Title Content Start -->
-                    <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-                        <p>We believe in providing clear and upfront pricing to ensure that you understand the value of our
-                            services.</p>
-                    </div>
-                    <!-- Section Title Content End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <!-- Pricing Box Start -->
-                    <div class="pricing-box box-1 wow fadeInUp">
-                        <!-- Pricing Title Start -->
-                        <div class="pricing-title">
-                            <h2><sup>$</sup>29<sub>/month</sub></h2>
-                            <h3>basic plan</h3>
-                        </div>
-                        <!-- Pricing Title End -->
-
-                        <!-- Pricing List Start -->
-                        <div class="pricing-list">
-                            <ul>
-                                <li>Standard Manufacturing Services</li>
-                                <li>Quality Control Checks</li>
-                                <li>Technical Support</li>
-                                <li>Monthly Progress Reports</li>
-                            </ul>
-                        </div>
-                        <!-- Pricing List End -->
-
-                        <!-- Pricing Button Start -->
-                        <div class="pricing-btn">
-                            <a href="#" class="btn-default"><span>purchase now</span></a>
-                        </div>
-                        <!-- Pricing Button End -->
-                    </div>
-                    <!-- Pricing Box End -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Pricing Box Start -->
-                    <div class="pricing-box highlighted-box box-2 wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- Pricing Title Start -->
-                        <div class="pricing-title">
-                            <h2><sup>$</sup>39<sub>/month</sub></h2>
-                            <h3>advanced plan</h3>
-                        </div>
-                        <!-- Pricing Title End -->
-
-                        <!-- Pricing List Start -->
-                        <div class="pricing-list">
-                            <ul>
-                                <li>Standard Manufacturing Services</li>
-                                <li>Quality Control Checks</li>
-                                <li>Technical Support</li>
-                                <li>Monthly Progress Reports</li>
-                            </ul>
-                        </div>
-                        <!-- Pricing List End -->
-
-                        <!-- Pricing Button Start -->
-                        <div class="pricing-btn">
-                            <a href="#" class="btn-default btn-highlighted"><span>purchase now</span></a>
-                        </div>
-                        <!-- Pricing Button End -->
-                    </div>
-                    <!-- Pricing Box End -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Pricing Box Start -->
-                    <div class="pricing-box box-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <!-- Pricing Title Start -->
-                        <div class="pricing-title">
-                            <h2><sup>$</sup>49<sub>/month</sub></h2>
-                            <h3>premium plan</h3>
-                        </div>
-                        <!-- Pricing Title End -->
-
-                        <!-- Pricing List Start -->
-                        <div class="pricing-list">
-                            <ul>
-                                <li>Standard Manufacturing Services</li>
-                                <li>Quality Control Checks</li>
-                                <li>Technical Support</li>
-                                <li>Monthly Progress Reports</li>
-                            </ul>
-                        </div>
-                        <!-- Pricing List End -->
-
-                        <!-- Pricing Button Start -->
-                        <div class="pricing-btn">
-                            <a href="#" class="btn-default"><span>purchase now</span></a>
-                        </div>
-                        <!-- Pricing Button End -->
-                    </div>
-                    <!-- Pricing Box End -->
-                </div>
-
-                <div class="col-lg-12">
-                    <!-- Pricing Benifit List Start -->
-                    <div class="pricing-benefit-list wow fadeInUp" data-wow-delay="0.6s">
-                        <ul>
-                            <li><img src="images/icon-pricing-benefit-1.svg" alt="">Get 30 day free trial</li>
-                            <li><img src="images/icon-pricing-benefit-2.svg" alt="">No any hidden fees pay</li>
-                            <li><img src="images/icon-pricing-benefit-3.svg" alt="">You can cancel anytime </li>
-                        </ul>
-                    </div>
-                    <!-- Pricing Benifit List End -->
-                </div>
-            </div>
-        </div>
-    </div> --}}
-<!-- Our Pricing Section End -->
 
 <!-- Our Testimonial Section Start -->
 <div class="our-testimonial">
@@ -976,62 +707,50 @@
             </div>
 
             <div class="col-lg-12">
-                <!-- Agency Support Slider Start -->
-                <div class="testimonial-company-slider">
-                    <div class="swiper">
-                        <div class="swiper-wrapper">
-                            <!-- Agency Support Logo Start -->
-                            <div class="swiper-slide">
-                                <div class="company-logo">
-                                    <img src="{{ asset('assets/images/client_icon_1.png') }}" alt="">
-                                </div>
-                            </div>
-                            <!-- Agency Support Logo End -->
+    <div class="testimonial-company-slider">
+        <div class="swiper">
+            <div class="swiper-wrapper">
 
-                            <!-- Agency Support Logo Start -->
-                            <div class="swiper-slide">
-                                <div class="company-logo">
-                                    <img src="{{ asset('assets/images/client_icon_2.png') }}" alt="">
-                                </div>
-                            </div>
-                            <!-- Agency Support Logo End -->
-
-                            <!-- Agency Support Logo Start -->
-                            <div class="swiper-slide">
-                                <div class="company-logo">
-                                    <img src="{{ asset('assets/images/client_icon_3.png') }}" alt="">
-                                </div>
-                            </div>
-                            <!-- Agency Support Logo End -->
-
-                            <!-- Agency Support Logo Start -->
-                            <div class="swiper-slide">
-                                <div class="company-logo">
-                                    <img src="{{ asset('assets/images/client_icon_4.png') }}" alt="">
-                                </div>
-                            </div>
-                            <!-- Agency Support Logo End -->
-
-                            <!-- Agency Support Logo Start -->
-                            <div class="swiper-slide">
-                                <div class="company-logo">
-                                    <img src="{{ asset('assets/images/client_icon_5.png') }}" alt="">
-                                </div>
-                            </div>
-                            <!-- Agency Support Logo End -->
-
-                            <!-- Agency Support Logo Start -->
-                            <div class="swiper-slide">
-                                <div class="company-logo">
-                                    <img src="{{ asset('assets/images/client_icon_6.png') }}" alt="">
-                                </div>
-                            </div>
-                            <!-- Agency Support Logo End -->
-                        </div>
+                <div class="swiper-slide">
+                    <div class="company-logo">
+                        <img src="{{ asset('assets/images/client_icon_1.png') }}" alt="Client Logo">
                     </div>
                 </div>
-                <!-- Agency Support Slider End -->
+
+                <div class="swiper-slide">
+                    <div class="company-logo">
+                        <img src="{{ asset('assets/images/client_icon_2.png') }}" alt="Client Logo">
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="company-logo">
+                        <img src="{{ asset('assets/images/client_icon_3.png') }}" alt="Client Logo">
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="company-logo">
+                        <img src="{{ asset('assets/images/client_icon_4.png') }}" alt="Client Logo">
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="company-logo">
+                        <img src="{{ asset('assets/images/client_icon_5.png') }}" alt="Client Logo">
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="company-logo">
+                        <img src="{{ asset('assets/images/client_icon_6.png') }}" alt="Client Logo">
+                    </div>
+                </div>
+
             </div>
+        </div>
+    </div>
+</div>
         </div>
     </div>
 </div>
@@ -1135,5 +854,40 @@
 
 
 
-<!-- Mirrored from html.awaikenthemes.com/toplax/index-video.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Jun 2026 07:17:49 GMT --
+<!-- Mirrored from html.awaikenthemes.com/toplax/index-video.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Jun 2026 07:17:49 GMT -->
+
+<style>
+    .company-logo{
+    height:120px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+}
+
+
+.company-logo img{
+
+    width:300px !important ;
+    max-width:100%;
+    height:100px;
+    object-fit:contain;
+
+    /* Default black effect */
+    filter: grayscale(100%) brightness(0);
+
+    transition:all 0.4s ease;
+
+}
+
+
+/* Hover show original color */
+
+.company-logo:hover img{
+
+    filter:none;
+    transform:scale(1.08);
+
+}
+</style>
 @endsection
