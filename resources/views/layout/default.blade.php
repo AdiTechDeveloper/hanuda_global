@@ -21,7 +21,7 @@
     <div class="preloader">
         <div class="loading-container">
             <div class="loading"></div>
-            <div><img src="{{ asset('assets/images/load.gif') }}" alt=""></div>
+            <div><img src="{{ asset('assets/images/hg.png') }}" alt=""></div>
         </div>
     </div>
     <!-- Preloader End -->

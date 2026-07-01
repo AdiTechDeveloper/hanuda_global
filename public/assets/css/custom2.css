@@ -333,8 +333,7 @@ body {
     right: 0;
     bottom: 0;
     z-index: 1000;
-    /* background-color: var(--accent-color);  */
-    /* background-image: url('images/load.gif'); */
+    background-color: var(--accent-color); 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -342,9 +341,9 @@ body {
 
 .loading-container,
 .loading {
-    /* height: 100px; */
+    height: 100px;
     position: relative;
-    /* width: 100px; */
+    width: 100px;
     border-radius: 100%;
 }
 
@@ -355,7 +354,7 @@ body {
 .loading {
     border: 1px solid transparent;
     border-color: transparent var(--white-color) transparent var(--white-color);
-    /* animation: rotate-loading 1.5s linear 0s infinite normal; */
+    animation: rotate-loading 1.5s linear 0s infinite normal;
     transform-origin: 50% 50%;
 }
 
