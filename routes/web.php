@@ -26,7 +26,7 @@ Route::get('/products/{slug}', function ($slug) {
             'title' => 'High-Performance Bearings',
             'image' => 'bearings.jpg',
             'intro' => 'High-quality industrial bearings designed to reduce friction, support loads, and ensure smooth rotational movement across a wide range of applications. Our bearings are suitable for demanding industrial environments where reliability and precision are critical.',
-            'details' => 'Hanuda Supply offers a comprehensive range of bearings for maintenance, repair, and replacement needs, supporting consistent equipment performance and extended service life.',
+            'details' => 'Hanuda Global offers a comprehensive range of bearings for maintenance, repair, and replacement needs, supporting consistent equipment performance and extended service life.',
             'points' => [
                 'Designed for high load and speed conditions',
                 'Reduces wear and operational friction',
@@ -52,7 +52,7 @@ Route::get('/products/{slug}', function ($slug) {
         ],
         'beltingbelts' => [
             'title' => 'Durable Belting Solutions',
-            'image' => 'belts.jpg',
+            'image' => 'background.webp',
             'intro' => 'Industrial belting solutions designed for power transmission, conveying, and material handling applications. Our belts ensure efficient motion transfer and stable performance under varying load conditions.',
             'details' => 'We supply durable belts suitable for demanding environments, helping maintain smooth and uninterrupted operations.',
             'points' => [
@@ -82,7 +82,7 @@ Route::get('/products/{slug}', function ($slug) {
             'title' => 'Industrial Gear Boxes',
             'image' => 'gear-box.jpeg',
             'intro' => 'Industrial gear boxes designed to transmit power efficiently while reducing speed and increasing torque for heavy-duty machinery. Our gear boxes are built to perform reliably under high load conditions and continuous industrial operation.',
-            'details' => 'Hanuda Supply offers a wide range of gear boxes suitable for manufacturing, material handling, mining, and processing industries, ensuring smooth and controlled power transmission.',
+            'details' => 'Hanuda Global offers a wide range of gear boxes suitable for manufacturing, material handling, mining, and processing industries, ensuring smooth and controlled power transmission.',
             'points' => [
                 'High torque transmission capability',
                 'Robust and durable construction',

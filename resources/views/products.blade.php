@@ -45,9 +45,9 @@
                     [
                     'slug'=>'beltingbelts',
                     'class'=>'beltingbelts',
-                    'img'=>'belts.jpg',
+                    'img'=>'background.webp',
                     'title'=>'Durable Belting Solutions for Power Transmission',
-                    'tag'=>'Belting Belts'
+                    'tag'=>'Belting/Belts'
                     ],
                     [
                     'slug'=>'rollerchains',

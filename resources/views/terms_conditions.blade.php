@@ -33,7 +33,7 @@
                 Terms & <span class="text-orange">Conditions</span>
             </h1>
             <p class="text-muted">
-                Please read these terms carefully before using Hanuda Supply services.
+                Please read these terms carefully before using Hanuda Global services.
             </p>
         </div>
 
@@ -48,7 +48,7 @@
                     </div>
                     <h4>Introduction</h4>
                     <p>
-                        Welcome to Hanuda Supply. By accessing or using our website,
+                        Welcome to Hanuda Global. By accessing or using our website,
                         products, or services, you agree to comply with and be bound by
                         these Terms & Conditions.
                     </p>
@@ -80,7 +80,7 @@
                     </div>
                     <h4>Products & Services</h4>
                     <p>
-                        Hanuda Supply provides Maintenance, Repair, and Operations (MRO)
+                        Hanuda Global provides Maintenance, Repair, and Operations (MRO)
                         products. Product specifications, availability, and details may
                         change without prior notice.
                     </p>
@@ -128,7 +128,7 @@
                     <h4>Intellectual Property</h4>
                     <p>
                         All website content including text, images, graphics, and logos
-                        belong to Hanuda Supply or respective owners and are protected by
+                        belong to Hanuda Global or respective owners and are protected by
                         applicable laws.
                     </p>
                 </div>
@@ -158,7 +158,7 @@
                     </div>
                     <h4>Limitation of Liability</h4>
                     <p>
-                        Hanuda Supply shall not be liable for direct or indirect damages
+                        Hanuda Global shall not be liable for direct or indirect damages
                         arising from the use of this website or our products.
                     </p>
                 </div>

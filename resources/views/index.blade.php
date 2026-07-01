@@ -78,7 +78,7 @@
                     <!-- About Image Start -->
                     <div class="about-img-2">
                         <figure class="image-anime reveal">
-                            <img src="{{ asset('assets/images/about-img-2.png') }}" alt="">
+                            <img src="{{ asset('assets/images/background.png') }}" alt="">
                         </figure>
                     </div>
                     <!-- About Image End -->
@@ -600,7 +600,7 @@
                 <!-- Our Testimonial Image Start -->
                 <div class="our-testimonial-image">
                     <figure class="image-anime reveal">
-                        <img src="{{ asset('assets/images/background.webp') }}" alt="">
+                        <img src="{{ asset('assets/images/Artboard.png') }}" alt="">
                     </figure>
                 </div>
                 <!-- Our Testimonial Image End -->
@@ -872,7 +872,7 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    padding:10px;
+    padding:0px;
 }
 
 

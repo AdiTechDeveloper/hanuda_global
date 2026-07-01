@@ -8,7 +8,7 @@
                     <div class="col-lg-3 col-md-4 col-12">
                         <div class="text-center text-md-start">
                             <a href="{{ url('/') }}">
-                                <img src="{{ asset('assets/images/hanudalogo.png') }}" alt="Hanuda Supply Logo">
+                                <img src="{{ asset('assets/images/hanudalogo.png') }}" alt="Hanuda Global Logo">
                             </a>
                         </div>
                     </div>
@@ -19,6 +19,17 @@
                         <div class="topbar-contact-info">
 
                             <ul>
+                                 <li>
+                                    <a href="tel:+16472692148">
+                                        <div class="country-icon">
+                                            <img src="{{ asset('assets/images/canada.svg') }}" alt="Canada">
+                                        </div>
+                                        <div>
+                                            {{-- <span>Canada</span> --}}
+                                            <p>(+1) 905-915-0210</p>
+                                        </div>
+                                    </a>
+                                </li>
 
                                 <!-- USA Number -->
                                 <li>
@@ -34,18 +45,7 @@
                                 </li>
 
 
-                                <!-- Canada Number -->
-                                <li>
-                                    <a href="tel:+16472692148">
-                                        <div class="country-icon">
-                                            <img src="{{ asset('assets/images/canada.svg') }}" alt="Canada">
-                                        </div>
-                                        <div>
-                                            {{-- <span>Canada</span> --}}
-                                            <p>(+1) 905-915-0210</p>
-                                        </div>
-                                    </a>
-                                </li>
+                               
 
 
                                 <!-- Email -->

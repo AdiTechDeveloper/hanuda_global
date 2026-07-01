@@ -23,7 +23,7 @@ class ContactController extends Controller
             Mail::send([], [], function ($mail) use ($validated) {
 
                 $mail->to('info@hanudaglobal.com')
-                    ->subject('New Contact Inquiry - Hanuda Supply')
+                    ->subject('New Contact Inquiry - Hanuda Global')
                     ->html('
                     <h2>New Website Inquiry</h2>
 

@@ -47,8 +47,9 @@
                             </div>
                             <div class="contact-info-content">
                                 <h3>contact</h3>
-                                <p>+1 (630) 339-2658</p>
-                                <p>(+1) 905-915-0210</p>
+                                 <p>(+1) 905-915-0210</p>
+                                <p>(+1) 630-339-2658</p>
+                               
                             </div>
                         </div>
                         <!-- Page Contact Item End -->

@@ -41,7 +41,7 @@
                     <!-- About Image Start -->
                     <div class="about-img-2">
                         <figure class="image-anime reveal">
-                            <img src="{{ asset('assets/images/about-img-2.png') }}" alt="">
+                            <img src="{{ asset('assets/images/background.png') }}" alt="">
                         </figure>
                     </div>
                     <!-- About Image End -->
