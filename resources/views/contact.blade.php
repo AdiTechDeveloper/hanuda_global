@@ -137,7 +137,6 @@
 
 <script>
     $(document).ready(function() {
-        // Toastr configurations
         toastr.options = {
             "closeButton": true
             , "progressBar": true
@@ -145,16 +144,20 @@
             , "timeOut": "5000"
         };
 
-        $('#contactForm').on('submit', function(e) {
+        $('#contactForm').off('submit').on('submit', function(e) {
             e.preventDefault();
+            e.stopImmediatePropagation();
 
             let form = $(this);
             let actionUrl = form.attr('action');
             let formData = form.serialize();
             let submitBtn = $('#submitBtn');
 
-            // Disable button to prevent double submissions
-            submitBtn.prop('disabled', true).text('Sending...');
+            if (submitBtn.prop('disabled')) {
+                return false;
+            }
+
+            submitBtn.prop('disabled', true).css('pointer-events', 'none').text('Sending...');
 
             $.ajax({
                 url: actionUrl
@@ -171,13 +174,12 @@
                             toastr.error(value[0]);
                         });
                     } else {
-                        // Safe extraction fallback for general server faults
                         let errorMsg = xhr.responseJSON ? (xhr.responseJSON.error || xhr.responseJSON.message) : 'Something went wrong. Please try again.';
                         toastr.error(errorMsg);
                     }
                 }
                 , complete: function() {
-                    submitBtn.prop('disabled', false).html('<span>submit message</span>');
+                    submitBtn.prop('disabled', false).css('pointer-events', 'auto').html('<span>submit message</span>');
                 }
             });
         });
