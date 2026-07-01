@@ -18,10 +18,10 @@
     @include('layout.Partials.header')
 
     <!-- Preloader Start -->
-    <div class="preloader">
+     <div class="preloader">
         <div class="loading-container">
             <div class="loading"></div>
-            <div><img src="{{ asset('assets/images/hg.png') }}" alt=""></div>
+            <div id="loading-icon"><img src="{{ asset('assets/images/hg.png') }}" alt=""></div>
         </div>
     </div>
     <!-- Preloader End -->
