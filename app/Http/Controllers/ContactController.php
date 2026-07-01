@@ -48,7 +48,7 @@ class ContactController extends Controller
         } catch (\Exception $e) {
             return response()->json([
                 'status' => 'error',
-                'error' => 'Failed to process your request. Please try again later.',
+                'error' => 'Failed to process your request. Please try again later.'.$e->getMessage(),
             ], 500);
         }
     }
