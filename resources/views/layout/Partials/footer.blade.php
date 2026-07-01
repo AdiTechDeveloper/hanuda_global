@@ -59,6 +59,7 @@
                      <ul>
                          <li><a href="{{ url('/') }}">Home</a></li>
                          <li><a href="{{ url('/about') }}">About Us</a></li>
+                         <li><a href="{{ url('/products') }}">Products</a></li>
                          <li><a href="{{ url('/contact') }}">Contact</a></li>
                          <li><a href="{{ url('/terms-conditions') }}">Terms & Conditions</a></li>
                          <li><a href="{{ url('/help') }}">Help</a></li>
@@ -92,43 +93,33 @@
                  <!-- Footer Links Start -->
                  <div class="footer-links">
                      <h3>Contact</h3>
-
                      <ul>
-
-            <!-- Canada Number -->
-            <li>
-                <a href="tel:+19059150210" class="footer-contact-item">
-                    <img src="{{ asset('assets/images/canada.svg') }}" alt="Canada">
-                    <span> (+1) 905-915-0210</span>
-                </a>
-            </li>
-
-
+                         <!-- Canada Number -->
+                         <li style="margin-left: 24px">
+                             <a href="tel:+19059150210" class="footer-contact-item">
+                                 <img src="{{ asset('assets/images/canada.svg') }}" alt="Canada">
+                                 <span> (+1) 905-915-0210</span>
+                             </a>
+                         </li>
                          <!-- USA Number -->
-                         <li>
+                         <li style="margin-left: 24px">
                              <a href="tel:+16303392658" class="footer-contact-item">
                                  <img src="{{ asset('assets/images/united-states.svg') }}" alt="USA">
                                  <span>(+1) 630-339-2658</span>
                              </a>
                          </li>
-
-
                          <!-- Email -->
                          <li>
                              <a class="email" href="mailto:info@hanudaglobal.com">
                                  info@hanudaglobal.com
                              </a>
                          </li>
-
-
                          <!-- Address -->
                          <li>
                              17 McEwan Dr West, Bolton
                              Ontario, Canada L7E1H5
                          </li>
-
                      </ul>
-
                  </div>
                  <!-- Footer Links End -->
              </div>
@@ -142,7 +133,7 @@
                      <div class="footer-copyright-text">
                          <p>
                              Crafted with Code & Creativity by{{ " " }}
-                             <a href="https://theaditech.com" target="_blank" rel="noopener noreferrer" style="color: #ffffff;">
+                             <a href="https://theaditech.com" target="_blank" rel="noopener noreferrer" style="color: #ff9900;">
                                  The AdiTech
                              </a>
                          </p>

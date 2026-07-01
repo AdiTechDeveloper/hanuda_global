@@ -530,7 +530,7 @@ body {
 }
 
 .topbar-contact-info ul li:hover .icon-box {
-    background: var(--primary-color);
+    /* background: var(--primary-color); */
 }
 
 .topbar-contact-info li .icon-box img {
